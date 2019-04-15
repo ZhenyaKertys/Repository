@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script>
-    var money = 15000
+    var money = parseInt(prompt('Зарплата',(0)))
     var nalog = 20
-    var pay = money % nalog
+    var nalogProc = money * 0.2
+    var pay = money - nalogProc
     alert('Платня - ' + pay)
     </script>
 </head>
